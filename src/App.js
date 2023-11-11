@@ -1,8 +1,7 @@
-// import logo from './logo.svg';
 import './App.css';
-import ExpenseItem from './components/ExpenseItem';
+import ExpenseItem from './components/Expenses/ExpenseItem';
 
-function App() {
+const App = () => {
   const expenses = [
     { id: 'e1', title: 'Car Insurance', LocationOfExpenditure: 'Banri', amount: 294.67, date: new Date(2023, 6, 13) },
     { id: 'e2', title: 'Fuel Refill', LocationOfExpenditure: 'Fuel Station Near Wall Mart, Banri', amount: 1.67, date: new Date(2023, 10, 8) },
@@ -18,9 +17,8 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}/> */}
+    <div>
+      <header>
         {expenseItems}
       </header>
     </div>
