@@ -4,7 +4,6 @@ const ExpenseDetails = (props) => {
      const amount = props.amount;
      const title = props.title;
      const LocationOfExpenditure = props.LocationOfExpenditure;
-     console.log(props.LocationOfExpenditure)
 
      return (
           <div className='expense-item__description'>
