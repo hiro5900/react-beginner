@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './App.css';
 import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense'
 
@@ -12,14 +11,6 @@ const DUMMY_EXPENSES = [
 
 const App = () => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
-
-  // const expenseItems = [];
-  // for (let i = 0; i < expenses.length; i++) {
-  //   expenseItems.push(
-  //     <ExpenseItem title={expenses[i].title} amount={expenses[i].amount} date={expenses[i].date} LocationOfExpenditure={expenses[i].LocationOfExpenditure} />
-  //   );
-  // };
-
   const addExpenseHandler = (expense) => {
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
