@@ -5,7 +5,7 @@ import NewExpense from './components/NewExpense/NewExpense'
 const DUMMY_EXPENSES = [
   { id: 'e1', title: 'Car Insurance', LocationOfExpenditure: 'Banri', amount: 294.67, date: new Date(2023, 6, 13) },
   { id: 'e2', title: 'Fuel Refill', LocationOfExpenditure: 'Fuel Station Near Wall Mart, Banri', amount: 1.67, date: new Date(2023, 10, 8) },
-  { id: 'e3', title: 'Food', LocationOfExpenditure: 'Wall Mart Food Court, Banri', amount: 4.67, date: new Date(2023, 10, 1) },
+  { id: 'e3', title: 'Food', LocationOfExpenditure: 'Wall Mart Food Court, Banri', amount: 4.67, date: new Date(2022, 10, 1) },
   { id: 'e4', title: 'Mobile Bill', LocationOfExpenditure: 'Home', amount: 2, date: new Date(2023, 10, 11) },
 ];
 
